@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.6
 
 RUN \
   apk add --update git git-svn perl-git-svn git-perl subversion ruby && \
